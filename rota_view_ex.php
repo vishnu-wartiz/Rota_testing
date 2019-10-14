@@ -85,7 +85,10 @@ if($current_end_date == $end_date)
 {
 	$table_extra_css= 'rota-darkest';
 }
-?>
+?><br>
+<br>
+
+
 <div class="block" id="tabs-main">
 	
 	<p id="rota-publish-message-sent-to" style="display:none;"></p>
@@ -2003,6 +2006,7 @@ get_data_of_schedule_multiple_sites();
 
 function get_data_of_schedule_multiple_sites()
 {
+	//return true;
 	var date = '<?php echo $this->uri->segment(2); ?>';
 	$.ajax({
 		type	: 'POST',
@@ -3057,7 +3061,7 @@ function vishnu_checking(){
 					 $.ajaxSetup ({
 							cache: false
 						});
-						var ajax_load = "<img src='"<?php echo base_url()."assets/images/small-loading.gif"?>"' alt='loading...' />";
+						var ajax_load = "<img src='<?php echo base_url()."assets/images/small-loading.gif"?>' alt='loading...' />";
 						
 
 						var loadUrl = "<?php echo base_url().'staff/load_rota/'.$end_date.'/'?>"+dept+'/'+id;
