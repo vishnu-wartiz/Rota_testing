@@ -9,6 +9,9 @@ tr.for-getting-width td{
 tr.thead-getting-width td{
 	height:0px !important;
 }
+	td.abcdesddd{
+		width:100;
+	}
 
 </style>
 <?php 
