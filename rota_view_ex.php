@@ -12,6 +12,9 @@ tr.thead-getting-width td{
 tr.thead-getting-width td{
 	height:0px !important;
 }
+tr.thead-getting-width td{
+	height:0px !important;
+}
 
 </style>
 <?php 
